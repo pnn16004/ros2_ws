@@ -1,0 +1,4 @@
+Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/sublisher -- -j8 -l8
+Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/sublisher -- -j8 -l8
+Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/sublisher
+Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/sublisher

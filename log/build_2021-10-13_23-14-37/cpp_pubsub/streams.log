@@ -1,0 +1,49 @@
+[0.049s] Invoking command in '/home/skola/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/skola/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/skola/ros2_ws/install/cpp_pubsub
+[0.159s] -- The C compiler identification is GNU 9.3.0
+[0.267s] -- The CXX compiler identification is GNU 9.3.0
+[0.280s] -- Check for working C compiler: /usr/bin/cc
+[0.416s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.418s] -- Detecting C compiler ABI info
+[0.556s] -- Detecting C compiler ABI info - done
+[0.573s] -- Detecting C compile features
+[0.574s] -- Detecting C compile features - done
+[0.577s] -- Check for working CXX compiler: /usr/bin/c++
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.738s] -- Detecting CXX compiler ABI info
+[0.880s] -- Detecting CXX compiler ABI info - done
+[0.901s] -- Detecting CXX compile features
+[0.902s] -- Detecting CXX compile features - done
+[0.906s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.948s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.948s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.189s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.253s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.402s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.445s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.616s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.619s] -- Looking for pthread.h
+[1.738s] -- Looking for pthread.h - found
+[1.739s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.870s] -- Looking for pthread_create in pthreads
+[1.983s] -- Looking for pthread_create in pthreads - not found
+[1.984s] -- Looking for pthread_create in pthread
+[2.100s] -- Looking for pthread_create in pthread - found
+[2.102s] -- Found Threads: TRUE  
+[2.306s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.408s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.409s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.409s] -- Configured cppcheck include dirs: 
+[2.410s] -- Configured cppcheck exclude dirs and/or files: 
+[2.410s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.410s] -- Configured cpplint exclude dirs and/or files: 
+[2.411s] -- Added test 'lint_cmake' to check CMake code style
+[2.412s] -- Added test 'uncrustify' to check C / C++ code style
+[2.413s] -- Configured uncrustify additional arguments: 
+[2.413s] -- Added test 'xmllint' to check XML markup files
+[2.418s] -- Configuring done
+[2.433s] -- Generating done
+[2.435s] -- Build files have been written to: /home/skola/ros2_ws/build/cpp_pubsub

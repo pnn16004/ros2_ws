@@ -1,0 +1,480 @@
+[0.000000] (-) TimerEvent: {}
+[0.000535] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000626] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000658] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000683] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000708] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008305] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.018403] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.025249] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.034521] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.036096] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.036996] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skola/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/skola/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.046590] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.051067] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.051327] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skola/ros2_ws/build/cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/skola/ros2_ws/build/cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.055408] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.058118] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.058483] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skola/ros2_ws/build/my_package', '--', '-j8', '-l8'], 'cwd': '/home/skola/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.070201] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.073915] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.074408] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skola/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/skola/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098709] (-) TimerEvent: {}
+[0.113019] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.114773] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.125004] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_sub_spiral\x1b[0m\n'}
+[0.125648] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_pub_spiral\x1b[0m\n'}
+[0.162879] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.180729] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.184001] (my_package) CommandEnded: {'returncode': 0}
+[0.194597] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.196929] (turtlesim) StdoutLine: {'line': b'[ 10%] Built target turtlesim__rosidl_generator_c\n'}
+[0.197899] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__cpp\n'}
+[0.198824] (-) TimerEvent: {}
+[0.201873] (cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o\x1b[0m\n'}
+[0.212894] (cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o\x1b[0m\n'}
+[0.252746] (turtlesim) StdoutLine: {'line': b'[ 25%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.253270] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.258756] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.268952] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.271254] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.273667] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.279362] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skola/ros2_ws/build/my_package'], 'cwd': '/home/skola/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.293561] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.294156] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/lib/my_package/my_node\n'}
+[0.294463] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[0.294641] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[0.294780] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[0.294934] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[0.295077] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[0.295201] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[0.295319] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[0.295436] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[0.295541] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[0.295836] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[0.295935] (my_package) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[0.296024] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[0.296113] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[0.296200] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[0.296332] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[0.299474] (my_package) CommandEnded: {'returncode': 0}
+[0.300261] (-) TimerEvent: {}
+[0.326796] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.380077] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.382225] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.400510] (-) TimerEvent: {}
+[0.441193] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim__py\n'}
+[0.441763] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target draw_square\n'}
+[0.457498] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[0.458654] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[0.483123] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[0.494385] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[0.500666] (-) TimerEvent: {}
+[0.539039] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.539435] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.539837] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.558944] (turtlesim) CommandEnded: {'returncode': 0}
+[0.600965] (-) TimerEvent: {}
+[0.701598] (-) TimerEvent: {}
+[0.802054] (-) TimerEvent: {}
+[0.902888] (-) TimerEvent: {}
+[0.958520] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.963469] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skola/ros2_ws/build/turtlesim'], 'cwd': '/home/skola/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.978859] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.979376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.979585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[0.980001] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.980224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[0.980339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.980492] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.980610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.980739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.980862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.980969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.981081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[0.981188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[0.981297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[0.981402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.981615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.981765] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.981875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.982000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[0.982118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.982303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.982438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.982548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[0.982655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[0.982794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.982908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.983019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.983127] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.983236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.983477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.984289] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.984435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.984553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.984692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.984797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.984903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[0.985010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[0.985117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.985223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.985333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[0.985439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.985904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[0.986176] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[0.986282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[0.986376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[0.986483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[0.986627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[0.986739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[0.986859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.986965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[0.987074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.987180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.987422] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.987719] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[0.988655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.989036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.989247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.989378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.989612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.989722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.989818] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.989904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.990357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.990490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.991064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.991374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[0.991557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.992208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.992341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[0.992501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.992723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.992883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.992992] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.993097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.993202] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.993308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.993500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.993596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.993684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.993770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.993980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.994070] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.994159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.994247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.994380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.994611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[0.994752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.994859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.994966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.995073] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.995179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.995551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.995872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.995991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.996114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.996223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.996544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.996663] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.996776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.996901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.997013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.997120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.997223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.997361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.997471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.997574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.997797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.998002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[0.998101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.998190] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.998966] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[0.999256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.999849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[1.000076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[1.000326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[1.000612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.000744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[1.000857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[1.000968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[1.001151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[1.001298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[1.001472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[1.001591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.001784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[1.001899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[1.002013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[1.002123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[1.002296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[1.002413] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[1.002617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[1.002747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[1.002860] (-) TimerEvent: {}
+[1.003146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[1.003406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[1.003537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[1.003787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[1.003892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[1.004004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[1.004148] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[1.004274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[1.004384] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[1.004497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[1.004615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[1.004731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[1.004843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[1.004954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.005100] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[1.005227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[1.005351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[1.005463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[1.005786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[1.005908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[1.006015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[1.006163] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[1.006274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.006391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[1.006499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.006608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[1.006717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.006830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.006941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.007054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[1.007164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[1.007274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.007385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.007493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[1.008166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[1.008643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[1.008835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.008975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[1.009097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.009192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[1.009285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.009380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[1.009565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.009674] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[1.009773] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.010019] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[1.010908] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[1.011286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[1.011435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[1.011533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[1.071480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[1.072280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[1.072437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[1.072534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[1.072628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[1.075421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[1.076155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[1.076327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[1.076446] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[1.076559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[1.076668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[1.076777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[1.076891] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[1.077266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[1.077431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[1.077530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[1.077623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[1.077716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[1.077832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[1.077944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[1.078092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[1.078246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[1.078488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.079455] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.080854] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[1.081431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.082281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[1.082556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[1.082825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[1.083140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[1.083431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[1.083906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[1.084116] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[1.084230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[1.084428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[1.084612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[1.084846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[1.085048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[1.085281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[1.085556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[1.085855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[1.086165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[1.086433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[1.086619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[1.086801] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[1.087109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[1.087403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[1.087808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[1.088027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[1.088262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[1.088449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[1.088689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[1.088932] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[1.089343] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[1.099079] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[1.099845] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[1.102895] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[1.103198] (-) TimerEvent: {}
+[1.103769] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[1.108702] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[1.109296] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[1.113606] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[1.114132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[1.114290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[1.114409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[1.114534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[1.114650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[1.114761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[1.114872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[1.115175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[1.115297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[1.115408] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[1.115540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[1.115755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[1.116038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[1.116217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[1.116438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[1.116620] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[1.116811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[1.116926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[1.117194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[1.117316] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[1.117760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[1.118126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[1.118355] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.118791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.119183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.119442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[1.119802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.120433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[1.120964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.121198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.121448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[1.121727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.121945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[1.122202] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.122459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.122580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.122870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.123191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.123334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.123542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[1.123726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[1.124041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/skola/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[1.130929] (turtlesim) CommandEnded: {'returncode': 0}
+[1.203652] (-) TimerEvent: {}
+[1.304678] (-) TimerEvent: {}
+[1.574199] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[1.575454] (-) TimerEvent: {}
+[1.676181] (-) TimerEvent: {}
+[1.776978] (-) TimerEvent: {}
+[1.878415] (-) TimerEvent: {}
+[1.979297] (-) TimerEvent: {}
+[2.080085] (-) TimerEvent: {}
+[2.181134] (-) TimerEvent: {}
+[2.282312] (-) TimerEvent: {}
+[2.383112] (-) TimerEvent: {}
+[2.483858] (-) TimerEvent: {}
+[2.584664] (-) TimerEvent: {}
+[2.685592] (-) TimerEvent: {}
+[2.786309] (-) TimerEvent: {}
+[2.887172] (-) TimerEvent: {}
+[2.987895] (-) TimerEvent: {}
+[3.088571] (-) TimerEvent: {}
+[3.189287] (-) TimerEvent: {}
+[3.289992] (-) TimerEvent: {}
+[3.390786] (-) TimerEvent: {}
+[3.491458] (-) TimerEvent: {}
+[3.592300] (-) TimerEvent: {}
+[3.692888] (-) TimerEvent: {}
+[3.793475] (-) TimerEvent: {}
+[3.857208] (cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cpp_pub_spiral\x1b[0m\n'}
+[3.893659] (-) TimerEvent: {}
+[3.938354] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.994044] (-) TimerEvent: {}
+[4.064726] (cpp_topic) StdoutLine: {'line': b'[ 75%] Built target cpp_pub_spiral\n'}
+[4.094383] (-) TimerEvent: {}
+[4.158120] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.194715] (-) TimerEvent: {}
+[4.295497] (-) TimerEvent: {}
+[4.396356] (-) TimerEvent: {}
+[4.497067] (-) TimerEvent: {}
+[4.597872] (-) TimerEvent: {}
+[4.698797] (-) TimerEvent: {}
+[4.799542] (-) TimerEvent: {}
+[4.900400] (-) TimerEvent: {}
+[5.001237] (-) TimerEvent: {}
+[5.102003] (-) TimerEvent: {}
+[5.202987] (-) TimerEvent: {}
+[5.303750] (-) TimerEvent: {}
+[5.404590] (-) TimerEvent: {}
+[5.505605] (-) TimerEvent: {}
+[5.578975] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[5.601990] (cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_sub_spiral\x1b[0m\n'}
+[5.605872] (-) TimerEvent: {}
+[5.706358] (-) TimerEvent: {}
+[5.806747] (-) TimerEvent: {}
+[5.814198] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.830826] (cpp_topic) StdoutLine: {'line': b'[100%] Built target cpp_sub_spiral\n'}
+[5.832134] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.845069] (cpp_topic) CommandEnded: {'returncode': 0}
+[5.875749] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[5.878448] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skola/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/skola/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.889744] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'install'}
+[5.893053] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skola/ros2_ws/build/cpp_topic'], 'cwd': '/home/skola/ros2_ws/build/cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skola'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '1811'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skola'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skola'), ('JOURNAL_STREAM', '8:28454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/skola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skola-VirtualBox:@/tmp/.ICE-unix/1928,unix/skola-VirtualBox:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', 'fe98c9df51ce47f7bf47e1afd92105b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1baef0ab_495e_48e5_af91_4ae8330f09a1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skola/ros2_ws/build/cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=640dff113e256ec72465b6076166ca59'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.893947] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.894074] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[5.894159] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[5.894273] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[5.894919] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[5.895128] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[5.898097] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[5.899157] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[5.899824] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[5.900054] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[5.900688] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[5.900828] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[5.901917] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[5.902185] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[5.902305] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[5.902428] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[5.902497] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[5.902562] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[5.902626] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[5.902691] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[5.906538] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.906870] (-) TimerEvent: {}
+[5.907001] (cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.907115] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral\n'}
+[5.907760] (cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral" to ""\n'}
+[5.907896] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral\n'}
+[5.911417] (cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/skola/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral" to ""\n'}
+[5.913731] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic\n'}
+[5.914440] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic\n'}
+[5.915432] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh\n'}
+[5.915550] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv\n'}
+[5.916708] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.sh\n'}
+[5.917079] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv\n'}
+[5.917182] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.bash\n'}
+[5.917265] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.sh\n'}
+[5.917356] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh\n'}
+[5.917844] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv\n'}
+[5.918317] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/package.dsv\n'}
+[5.918409] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic\n'}
+[5.918485] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake\n'}
+[5.918577] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake\n'}
+[5.918661] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/skola/ros2_ws/install/cpp_topic/share/cpp_topic/package.xml\n'}
+[5.927565] (cpp_topic) CommandEnded: {'returncode': 0}
+[5.981815] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[5.992545] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 0}
+[5.993517] (-) EventReactorShutdown: {}

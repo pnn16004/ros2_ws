@@ -1,0 +1,52 @@
+[0.065s] Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skola/ros2_ws/src/sublisher -DCMAKE_INSTALL_PREFIX=/home/skola/ros2_ws/install/sublisher
+[0.083s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.083s] CMake Error at CMakeLists.txt:2 (project):
+[0.084s]   project PROJECT called with incorrect number of arguments
+[0.084s] 
+[0.084s] 
+[0.153s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.458s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.503s] CMake Warning at /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+[0.503s]   Package 'rcutils' exports library 'dl' which couldn't be found
+[0.503s] Call Stack (most recent call first):
+[0.504s]   /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.504s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.504s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.504s]   /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.504s]   /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.504s]   /opt/ros/foxy/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.504s]   /opt/ros/foxy/share/rcl_interfaces/cmake/rcl_interfacesConfig.cmake:41 (include)
+[0.504s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.504s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.505s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.505s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.505s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.505s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.505s]   CMakeLists.txt:20 (find_package)
+[0.505s] 
+[0.505s] 
+[0.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.651s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.668s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.753s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.808s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.809s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.810s] CMake Error at /usr/share/cmake-3.16/Modules/FindThreads.cmake:49 (message):
+[0.810s]   FindThreads only works if either C or CXX language is enabled
+[0.810s] Call Stack (most recent call first):
+[0.810s]   /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:67 (find_package)
+[0.810s]   /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[0.810s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.811s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.812s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.812s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.812s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.812s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.812s]   CMakeLists.txt:20 (find_package)
+[0.812s] 
+[0.812s] 
+[0.812s] -- Configuring incomplete, errors occurred!
+[0.813s] See also "/home/skola/ros2_ws/build/sublisher/CMakeFiles/CMakeOutput.log".
+[0.824s] Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skola/ros2_ws/src/sublisher -DCMAKE_INSTALL_PREFIX=/home/skola/ros2_ws/install/sublisher

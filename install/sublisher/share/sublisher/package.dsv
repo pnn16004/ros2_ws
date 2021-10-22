@@ -1,0 +1,8 @@
+source;share/sublisher/hook/cmake_prefix_path.ps1
+source;share/sublisher/hook/cmake_prefix_path.dsv
+source;share/sublisher/hook/cmake_prefix_path.sh
+source;share/sublisher/local_setup.bash
+source;share/sublisher/local_setup.dsv
+source;share/sublisher/local_setup.ps1
+source;share/sublisher/local_setup.sh
+source;share/sublisher/local_setup.zsh

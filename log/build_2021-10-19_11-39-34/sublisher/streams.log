@@ -1,0 +1,34 @@
+[0.093s] Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/sublisher -- -j8 -l8
+[0.242s] [35m[1mScanning dependencies of target param_pub[0m
+[0.264s] [ 25%] Built target subber
+[0.282s] [ 50%] Built target param_sub
+[0.338s] [ 75%] Built target pubber
+[0.354s] [ 87%] [32mBuilding CXX object CMakeFiles/param_pub.dir/src/param_pub.cpp.o[0m
+[3.565s] [100%] [32m[1mLinking CXX executable param_pub[0m
+[3.717s] [100%] Built target param_pub
+[3.740s] Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/sublisher -- -j8 -l8
+[3.795s] Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/sublisher
+[3.808s] -- Install configuration: ""
+[3.808s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/pubber
+[3.809s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/subber
+[3.809s] -- Installing: /home/skola/ros2_ws/install/sublisher/lib/sublisher/param_pub
+[3.810s] -- Set runtime path of "/home/skola/ros2_ws/install/sublisher/lib/sublisher/param_pub" to ""
+[3.811s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/param_sub
+[3.811s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/launch
+[3.811s] -- Installing: /home/skola/ros2_ws/install/sublisher/share/sublisher/launch/sublisher_launch.py
+[3.812s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/package_run_dependencies/sublisher
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/parent_prefix_path/sublisher
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/ament_prefix_path.sh
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/ament_prefix_path.dsv
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/path.sh
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/path.dsv
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.bash
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.sh
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.zsh
+[3.813s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.dsv
+[3.814s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/package.dsv
+[3.814s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/packages/sublisher
+[3.814s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/cmake/sublisherConfig.cmake
+[3.814s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/cmake/sublisherConfig-version.cmake
+[3.814s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/package.xml
+[3.819s] Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/sublisher

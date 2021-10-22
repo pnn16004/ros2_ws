@@ -1,0 +1,115 @@
+[0.153s] Invoking command in '/home/skola/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/more_interfaces -- -j8 -l8
+[0.354s] [  3%] Built target more_interfaces__cpp
+[0.360s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.498s] [ 21%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.503s] [ 30%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.503s] [ 39%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.509s] [ 48%] Built target more_interfaces__rosidl_typesupport_c
+[0.513s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.583s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.668s] [ 66%] Built target more_interfaces
+[0.721s] [ 69%] Built target more_interfaces__py
+[0.745s] [ 75%] Built target publish_address_book
+[0.836s] [ 81%] Built target more_interfaces__python
+[0.908s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.916s] [ 93%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.916s] [100%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.020s] Invoked command in '/home/skola/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/more_interfaces -- -j8 -l8
+[1.217s] Invoking command in '/home/skola/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/more_interfaces
+[1.235s] -- Install configuration: ""
+[1.238s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[1.238s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces
+[1.239s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[1.240s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.240s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h
+[1.240s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[1.240s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h
+[1.240s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h
+[1.241s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h
+[1.241s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c
+[1.243s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[1.243s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[1.247s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[1.249s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces
+[1.250s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[1.250s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[1.250s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[1.250s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.253s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.253s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces
+[1.254s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[1.254s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[1.254s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps
+[1.254s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[1.255s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.255s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.255s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces
+[1.255s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[1.256s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.256s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[1.256s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[1.256s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c
+[1.257s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[1.259s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[1.260s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces
+[1.260s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[1.260s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp
+[1.260s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[1.261s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp
+[1.262s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.267s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[1.268s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[1.269s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[1.270s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py
+[1.346s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg
+[1.348s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py
+[1.348s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c
+[1.349s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py
+[1.350s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.353s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.355s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.358s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so
+[1.359s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[1.359s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[1.363s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[1.364s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[1.365s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[1.365s] -- Installing: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[1.367s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[1.370s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake
+[1.370s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.377s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.377s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.379s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[1.380s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.384s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake
+[1.386s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.387s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.391s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[1.391s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.391s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.391s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.391s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.393s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.393s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.394s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.394s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.394s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[1.394s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[1.394s] -- Up-to-date: /home/skola/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[1.402s] Invoked command in '/home/skola/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/more_interfaces

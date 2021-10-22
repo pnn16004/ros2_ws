@@ -1,0 +1,30 @@
+[0.101s] Invoking command in '/home/skola/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skola/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/skola/ros2_ws/install/cpp_srvcli
+[0.188s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.241s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.600s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.797s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.088s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.253s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.627s] CMake Error at CMakeLists.txt:21 (find_package):
+[1.627s]   By not providing "Findtutorial_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.627s]   project has asked CMake to find a package configuration file provided by
+[1.627s]   "tutorial_interfaces", but CMake did not find one.
+[1.627s] 
+[1.627s]   Could not find a package configuration file provided by
+[1.627s]   "tutorial_interfaces" with any of the following names:
+[1.628s] 
+[1.628s]     tutorial_interfacesConfig.cmake
+[1.628s]     tutorial_interfaces-config.cmake
+[1.628s] 
+[1.628s]   Add the installation prefix of "tutorial_interfaces" to CMAKE_PREFIX_PATH
+[1.629s]   or set "tutorial_interfaces_DIR" to a directory containing one of the above
+[1.629s]   files.  If "tutorial_interfaces" provides a separate development package or
+[1.629s]   SDK, be sure it has been installed.
+[1.630s] 
+[1.630s] 
+[1.630s] -- Configuring incomplete, errors occurred!
+[1.631s] See also "/home/skola/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+[1.631s] See also "/home/skola/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".
+[1.652s] Invoked command in '/home/skola/ros2_ws/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skola/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/skola/ros2_ws/install/cpp_srvcli

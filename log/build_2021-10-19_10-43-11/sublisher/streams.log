@@ -1,0 +1,58 @@
+[0.046s] Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/sublisher -- -j8 -l8
+[0.118s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.118s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.271s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.305s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.572s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.629s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.629s] -- Configured cppcheck include dirs: 
+[0.629s] -- Configured cppcheck exclude dirs and/or files: 
+[0.630s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.630s] -- Configured cpplint exclude dirs and/or files: 
+[0.630s] -- Added test 'lint_cmake' to check CMake code style
+[0.631s] -- Added test 'uncrustify' to check C / C++ code style
+[0.631s] -- Configured uncrustify additional arguments: 
+[0.631s] -- Added test 'xmllint' to check XML markup files
+[0.634s] -- Configuring done
+[0.656s] -- Generating done
+[0.658s] -- Build files have been written to: /home/skola/ros2_ws/build/sublisher
+[0.685s] [35m[1mScanning dependencies of target param_pub[0m
+[0.686s] [35m[1mScanning dependencies of target param_sub[0m
+[0.711s] [ 25%] Built target subber
+[0.711s] [ 50%] Built target pubber
+[0.727s] [ 62%] [32mBuilding CXX object CMakeFiles/param_pub.dir/src/param_pub.cpp.o[0m
+[0.732s] [ 75%] [32mBuilding CXX object CMakeFiles/param_sub.dir/src/param_sub.cpp.o[0m
+[3.274s] [ 87%] [32m[1mLinking CXX executable param_pub[0m
+[3.408s] [ 87%] Built target param_pub
+[4.508s] [100%] [32m[1mLinking CXX executable param_sub[0m
+[4.672s] [100%] Built target param_sub
+[4.683s] Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/skola/ros2_ws/build/sublisher -- -j8 -l8
+[4.712s] Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/sublisher
+[4.719s] -- Install configuration: ""
+[4.722s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/pubber
+[4.724s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/subber
+[4.724s] -- Installing: /home/skola/ros2_ws/install/sublisher/lib/sublisher/param_pub
+[4.725s] -- Set runtime path of "/home/skola/ros2_ws/install/sublisher/lib/sublisher/param_pub" to ""
+[4.725s] -- Installing: /home/skola/ros2_ws/install/sublisher/lib/sublisher/param_sub
+[4.727s] -- Set runtime path of "/home/skola/ros2_ws/install/sublisher/lib/sublisher/param_sub" to ""
+[4.727s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/package_run_dependencies/sublisher
+[4.728s] -- Installing: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/parent_prefix_path/sublisher
+[4.728s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/ament_prefix_path.sh
+[4.728s] -- Installing: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/ament_prefix_path.dsv
+[4.728s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/path.sh
+[4.728s] -- Installing: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/path.dsv
+[4.728s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.bash
+[4.729s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.sh
+[4.729s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.zsh
+[4.729s] -- Installing: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.dsv
+[4.729s] -- Installing: /home/skola/ros2_ws/install/sublisher/share/sublisher/package.dsv
+[4.729s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/packages/sublisher
+[4.730s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/cmake/sublisherConfig.cmake
+[4.730s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/cmake/sublisherConfig-version.cmake
+[4.730s] -- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/package.xml
+[4.732s] Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/skola/ros2_ws/build/sublisher

@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target param_sub[0m
+[ 25%] Built target subber
+[ 50%] Built target pubber
+[ 62%] [32mBuilding CXX object CMakeFiles/param_sub.dir/src/param_sub.cpp.o[0m
+[ 87%] Built target param_pub
+[100%] [32m[1mLinking CXX executable param_sub[0m
+[100%] Built target param_sub
+-- Install configuration: ""
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/pubber
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/subber
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/lib/sublisher/param_pub
+-- Installing: /home/skola/ros2_ws/install/sublisher/lib/sublisher/param_sub
+-- Set runtime path of "/home/skola/ros2_ws/install/sublisher/lib/sublisher/param_sub" to ""
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/package_run_dependencies/sublisher
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/parent_prefix_path/sublisher
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/path.sh
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/environment/path.dsv
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.bash
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.sh
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.zsh
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/local_setup.dsv
+-- Installing: /home/skola/ros2_ws/install/sublisher/share/sublisher/package.dsv
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/ament_index/resource_index/packages/sublisher
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/cmake/sublisherConfig.cmake
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/cmake/sublisherConfig-version.cmake
+-- Up-to-date: /home/skola/ros2_ws/install/sublisher/share/sublisher/package.xml

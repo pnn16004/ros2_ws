@@ -1,0 +1,26 @@
+[  2%] Built target turtlesim__cpp
+[ 11%] Built target turtlesim__rosidl_generator_c
+[ 12%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[ 13%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[ 23%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 24%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so[0m
+[ 33%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 43%] Built target turtlesim__rosidl_typesupport_c
+[ 52%] Built target turtlesim__rosidl_typesupport_cpp
+[ 62%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 71%] Built target turtlesim
+[ 72%] Built target turtlesim__py
+[ 73%] [32m[1mLinking CXX executable mimic[0m
+[ 74%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[ 75%] [32m[1mLinking CXX executable draw_square[0m
+[ 84%] Built target turtlesim__python
+[ 85%] [32m[1mLinking CXX executable turtlesim_node[0m
+[ 87%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 90%] Built target turtlesim__rosidl_typesupport_c__pyext
+[ 91%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[ 92%] Built target turtle_teleop_key
+[ 93%] Built target mimic
+[ 94%] Built target draw_square
+[100%] Built target turtlesim_node

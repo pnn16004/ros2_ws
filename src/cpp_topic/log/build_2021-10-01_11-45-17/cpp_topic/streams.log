@@ -1,0 +1,83 @@
+[0.033s] Invoking command in '/workspaces/awesome_ros_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/awesome_ros_ws -DCMAKE_INSTALL_PREFIX=/workspaces/awesome_ros_ws/install/cpp_topic
+[0.248s] -- The C compiler identification is GNU 9.3.0
+[0.423s] -- The CXX compiler identification is GNU 9.3.0
+[0.443s] -- Check for working C compiler: /usr/bin/cc
+[0.861s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.911s] -- Detecting C compiler ABI info
+[1.456s] -- Detecting C compiler ABI info - done
+[1.530s] -- Detecting C compile features
+[1.531s] -- Detecting C compile features - done
+[1.587s] -- Check for working CXX compiler: /usr/bin/c++
+[1.896s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.897s] -- Detecting CXX compiler ABI info
+[2.239s] -- Detecting CXX compiler ABI info - done
+[2.267s] -- Detecting CXX compile features
+[2.271s] -- Detecting CXX compile features - done
+[2.291s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.386s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.042s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.334s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.709s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.791s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.139s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.171s] -- Looking for pthread.h
+[4.549s] -- Looking for pthread.h - found
+[4.553s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.251s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.253s] -- Looking for pthread_create in pthreads
+[5.744s] -- Looking for pthread_create in pthreads - not found
+[5.752s] -- Looking for pthread_create in pthread
+[5.958s] -- Looking for pthread_create in pthread - found
+[5.962s] -- Found Threads: TRUE  
+[6.510s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[6.643s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.989s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.074s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.079s] -- Configured cppcheck include dirs: 
+[7.081s] -- Configured cppcheck exclude dirs and/or files: 
+[7.123s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.127s] -- Configured cpplint exclude dirs and/or files: 
+[7.145s] -- Added test 'lint_cmake' to check CMake code style
+[7.201s] -- Added test 'uncrustify' to check C / C++ code style
+[7.205s] -- Configured uncrustify additional arguments: 
+[7.223s] -- Added test 'xmllint' to check XML markup files
+[7.257s] -- Configuring done
+[7.349s] -- Generating done
+[7.358s] -- Build files have been written to: /workspaces/awesome_ros_ws/build/cpp_topic
+[7.464s] Invoked command in '/workspaces/awesome_ros_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/awesome_ros_ws -DCMAKE_INSTALL_PREFIX=/workspaces/awesome_ros_ws/install/cpp_topic
+[7.468s] Invoking command in '/workspaces/awesome_ros_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/awesome_ros_ws/build/cpp_topic -- -j1 -l1
+[7.862s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[8.210s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[22.203s] [ 50%] [32m[1mLinking CXX executable cpp_sub_spiral[0m
+[22.830s] [ 50%] Built target cpp_sub_spiral
+[22.862s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[22.985s] [ 75%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[32.595s] [100%] [32m[1mLinking CXX executable cpp_pub_spiral[0m
+[33.001s] [100%] Built target cpp_pub_spiral
+[33.072s] Invoked command in '/workspaces/awesome_ros_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/awesome_ros_ws/build/cpp_topic -- -j1 -l1
+[33.095s] Invoking command in '/workspaces/awesome_ros_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/awesome_ros_ws/build/cpp_topic
+[33.137s] -- Install configuration: ""
+[33.146s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral
+[33.153s] -- Set runtime path of "/workspaces/awesome_ros_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral" to ""
+[33.154s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral
+[33.206s] -- Set runtime path of "/workspaces/awesome_ros_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral" to ""
+[33.258s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[33.262s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[33.262s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[33.263s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[33.264s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+[33.266s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[33.269s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+[33.274s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+[33.275s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[33.275s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[33.279s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/package.dsv
+[33.280s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[33.283s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[33.286s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[33.287s] -- Installing: /workspaces/awesome_ros_ws/install/cpp_topic/share/cpp_topic/package.xml
+[33.311s] Invoked command in '/workspaces/awesome_ros_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/awesome_ros_ws/build/cpp_topic
