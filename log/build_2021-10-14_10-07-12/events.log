@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000362] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
-[0.000423] (-) JobUnselected: {'identifier': 'cpp_topic'}
-[0.000451] (-) JobUnselected: {'identifier': 'my_package'}
-[0.000473] (-) JobUnselected: {'identifier': 'sublisher'}
-[0.000493] (-) JobUnselected: {'identifier': 'turtlesim'}
-[0.000514] (-) EventReactorShutdown: {}

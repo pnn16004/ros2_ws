@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/awesome_ros_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/awesome_ros_ws -DCMAKE_INSTALL_PREFIX=/workspaces/awesome_ros_ws/install/cpp_topic
-Invoked command in '/workspaces/awesome_ros_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/awesome_ros_ws -DCMAKE_INSTALL_PREFIX=/workspaces/awesome_ros_ws/install/cpp_topic
-Invoking command in '/workspaces/awesome_ros_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/awesome_ros_ws/build/cpp_topic -- -j1 -l1
-Invoked command in '/workspaces/awesome_ros_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/awesome_ros_ws/build/cpp_topic -- -j1 -l1
-Invoking command in '/workspaces/awesome_ros_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/awesome_ros_ws/build/cpp_topic
-Invoked command in '/workspaces/awesome_ros_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/awesome_ros_ws/build/cpp_topic

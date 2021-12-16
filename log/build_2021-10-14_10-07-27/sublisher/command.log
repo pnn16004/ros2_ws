@@ -1,2 +1,0 @@
-Invoking command in '/home/skola/ros2_ws/build/sublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skola/ros2_ws/src/sublisher -DCMAKE_INSTALL_PREFIX=/home/skola/ros2_ws/install/sublisher
-Invoked command in '/home/skola/ros2_ws/build/sublisher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skola/ros2_ws/src/sublisher -DCMAKE_INSTALL_PREFIX=/home/skola/ros2_ws/install/sublisher

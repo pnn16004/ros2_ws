@@ -1,5 +1,0 @@
-CMake Error at cmake_install.cmake:121 (file):
-  file INSTALL cannot find "/home/skola/ros2_ws/src/sublisher/launch": No
-  such file or directory.
-
-
